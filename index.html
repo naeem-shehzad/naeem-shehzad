@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liberty Global Services | Naeem Shehzad</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Arial, sans-serif; }
+        body { background-color: #0f172a; color: #f8fafc; line-height: 1.6; }
+        
+        /* Navigation */
+        nav { background: #1e293b; padding: 18px 5%; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #f59e0b; position: sticky; top: 0; z-index: 100; }
+        .logo { font-size: 1.3rem; font-weight: 700; color: #f59e0b; text-transform: uppercase; letter-spacing: 1px; }
+        .nav-links { display: flex; list-style: none; gap: 20px; }
+        .nav-links a { color: #f8fafc; text-decoration: none; font-weight: 600; font-size: 0.95rem; transition: 0.3s; }
+        .nav-links a:hover, .nav-links a.active { color: #f59e0b; }
+
+        /* Hero Banner */
+        .hero { background: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.95)), url('https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&q=80') center/cover; padding: 100px 20px; text-align: center; }
+        .hero h1 { font-size: 2.8rem; margin-bottom: 10px; color: #ffffff; }
+        .hero p { font-size: 1.2rem; color: #cbd5e1; max-width: 700px; margin: 0 auto 20px auto; }
+        .badge { background: #f59e0b; color: #0f172a; padding: 6px 16px; border-radius: 20px; font-weight: 700; display: inline-block; }
+
+        /* Main Container */
+        .container { max-width: 1000px; margin: 40px auto; padding: 0 20px; }
+        .card { background: #1e293b; border-radius: 12px; padding: 30px; margin-bottom: 30px; border: 1px solid #334155; box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
+        .section-title { color: #f59e0b; font-size: 1.6rem; margin-bottom: 15px; border-left: 4px solid #f59e0b; padding-left: 12px; }
+
+        /* Review Grid */
+        .review-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 15px; }
+        .review-card { background: #0f172a; padding: 20px; border-radius: 8px; border: 1px solid #334155; }
+        .review-card h4 { color: #38bdf8; margin-bottom: 5px; }
+        .stars { color: #f59e0b; margin-bottom: 8px; }
+
+        /* Highlight Boxes */
+        .tiktok-box { background: linear-gradient(135deg, #881337, #be123c); border: 1px solid #f43f5e; }
+        .prep-box { background: linear-gradient(135deg, #1e293b, #0f172a); border: 1px solid #f59e0b; }
+        .notice-box { background: rgba(56, 189, 248, 0.1); border: 1px solid #38bdf8; }
+
+        .btn { display: inline-block; padding: 12px 24px; border-radius: 6px; color: #ffffff; text-decoration: none; font-weight: bold; margin-top: 15px; transition: 0.3s; }
+        .btn-tiktok { background: #ffffff; color: #be123c; }
+        .btn-tiktok:hover { background: #f1f5f9; }
+        .btn-prep { background: #f59e0b; color: #0f172a; }
+        .btn-prep:hover { background: #d97706; color: #ffffff; }
+
+        footer { text-align: center; padding: 30px; color: #94a3b8; border-top: 1px solid #334155; margin-top: 50px; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Liberty Global Services</div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="greece-visa.html">Greece Visa Detail</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <h1>Liberty Global Services</h1>
+        <p>Led by Naeem Shehzad — Offering 15+ Years of Proven Expertise in Legal Visa Consultancy</p>
+        <span class="badge">Consultant / Owner</span>
+    </header>
+
+    <div class="container">
+
+        <!-- Welcome Section -->
+        <div class="card">
+            <h2 class="section-title">Welcome to Liberty Global Services</h2>
+            <p>We specialize in legal visa assistance, offering authentic guidance for international opportunities. Under the leadership of Naeem Shehzad, who brings over 15 years of industry experience, we ensure transparent, reliable, and legal processing for your overseas aspirations.</p>
+        </div>
+
+        <!-- Phone Contact Notice Box -->
+        <div class="card notice-box">
+            <h2 class="section-title" style="color: #38bdf8; border-color: #38bdf8;">Official Contact Notice</h2>
+            <p style="color: #e2e8f0;">To get our official contact phone number, please visit our official TikTok profile bio. All official phone details are updated directly on our verified TikTok account page.</p>
+        </div>
+
+        <!-- Written Client Reviews -->
+        <div class="card">
+            <h2 class="section-title">Client Feedback</h2>
+            <p>Read what our successful applicants have to say about our guidance and legal consultancy services:</p>
+            <div class="review-grid">
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <h4>Genuine Legal Process</h4>
+                    <p>"Naeem Shehzad provided step-by-step guidance for my Greece visa application. Highly transparent service."</p>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <h4>Excellent Interview Prep</h4>
+                    <p>"The preparation sessions were invaluable. I felt completely confident during my official appointment."</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Live TikTok Reviews Box -->
+        <div class="card tiktok-box">
+            <h2 class="section-title" style="color: #ffffff; border-color: #ffffff;">Watch Live Video Reviews</h2>
+            <p style="color: #ffe4e6;">For authentic video testimonials, live client reviews, and visa success proofs, visit our official TikTok channel.</p>
+            <a href="https://www.tiktok.com/@naeemshehzadofficial" target="_blank" class="btn btn-tiktok">Watch Live Video Proofs on TikTok (@naeemshehzadofficial)</a>
+        </div>
+
+        <!-- Special Interview Preparation Box -->
+        <div class="card prep-box">
+            <h2 class="section-title">Embassy Interview Preparation Community</h2>
+            <p style="color: #cbd5e1;">We maintain a dedicated guidance group for candidates undergoing embassy interview preparation. Whether your interview appointment is near or in the future, receive comprehensive preparation material and regular guidance.</p>
+            <a href="#" class="btn btn-prep">Join Preparation Group</a>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© Liberty Global Services. All Rights Reserved.</p>
+        <p>Consultant & Owner: Naeem Shehzad</p>
+    </footer>
+
+</body>
+</html>
