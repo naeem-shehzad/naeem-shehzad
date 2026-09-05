@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Liberty Global Services</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Arial, sans-serif; }
+        body { background-color: #0f172a; color: #f8fafc; line-height: 1.6; }
+        
+        /* Navigation */
+        nav { background: #1e293b; padding: 18px 5%; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #f59e0b; position: sticky; top: 0; z-index: 100; }
+        .logo { font-size: 1.3rem; font-weight: 700; color: #f59e0b; text-transform: uppercase; letter-spacing: 1px; }
+        .nav-links { display: flex; list-style: none; gap: 20px; }
+        .nav-links a { color: #f8fafc; text-decoration: none; font-weight: 600; font-size: 0.95rem; transition: 0.3s; }
+        .nav-links a:hover, .nav-links a.active { color: #f59e0b; }
+
+        /* Header Banner */
+        .page-header { background: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.95)), url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80') center/cover; padding: 70px 20px; text-align: center; }
+        .page-header h1 { font-size: 2.5rem; color: #ffffff; margin-bottom: 10px; }
+        .page-header p { font-size: 1.1rem; color: #cbd5e1; }
+
+        /* Main Container */
+        .container { max-width: 1000px; margin: 40px auto; padding: 0 20px; }
+        .card { background: #1e293b; border-radius: 12px; padding: 30px; margin-bottom: 30px; border: 1px solid #334155; box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
+        .section-title { color: #f59e0b; font-size: 1.6rem; margin-bottom: 15px; border-left: 4px solid #f59e0b; padding-left: 12px; }
+
+        /* Feature Grid */
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 20px; }
+        .grid-card { background: #0f172a; padding: 20px; border-radius: 8px; border: 1px solid #334155; }
+        .grid-card h3 { color: #38bdf8; margin-bottom: 10px; }
+
+        footer { text-align: center; padding: 30px; color: #94a3b8; border-top: 1px solid #334155; margin-top: 50px; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Liberty Global Services</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="active">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="greece-visa.html">Greece Visa Detail</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <header class="page-header">
+        <h1>About Liberty Global Services</h1>
+        <p>Your Trusted Legal Partner in International Mobility & Visa Consultancy</p>
+    </header>
+
+    <div class="container">
+
+        <!-- Leadership Section -->
+        <div class="card">
+            <h2 class="section-title">Leadership & Experience</h2>
+            <p style="margin-bottom: 15px;"><strong>Liberty Global Services</strong> was founded and is personally managed by <strong>Naeem Shehzad</strong>, a seasoned visa consultant with more than 15 years of active professional experience in immigration and visa legal guidance.</p>
+            <p>Over the past decade and a half, Naeem Shehzad has dedicated his practice to assisting individuals through intricate legal documentation, official embassy requirements, and career migration pathways—specifically tailored toward European employment visas such as the Greece Farm Work Visa.</p>
+        </div>
+
+        <!-- Mission & Values -->
+        <div class="card">
+            <h2 class="section-title">Our Core Principles</h2>
+            <div class="grid">
+                <div class="grid-card">
+                    <h3>100% Legal Transparency</h3>
+                    <p>We believe in absolute honesty. Every applicant receives clear, unfiltered legal assessment without false guarantees or misleading promises.</p>
+                </div>
+                <div class="grid-card">
+                    <h3>Proven Industry Expertise</h3>
+                    <p>With 15+ years of active field knowledge, we stay fully up-to-date with evolving embassy regulations and international labor laws.</p>
+                </div>
+                <div class="grid-card">
+                    <h3>Dedicated Client Support</h3>
+                    <p>From initial document compilation to final embassy interview preparation, our clients receive direct and structured mentorship.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Why Choose Us -->
+        <div class="card">
+            <h2 class="section-title">Why Work With Us?</h2>
+            <p>Navigating international visa protocols requires genuine legal precision. At Liberty Global Services, we simplify complex legal frameworks into actionable steps for every applicant. Our focus remains steadfast on official legitimacy, proper documentation, and total client trust.</p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© Liberty Global Services. All Rights Reserved.</p>
+        <p>Consultant & Owner: Naeem Shehzad</p>
+    </footer>
+
+</body>
+</html>
