@@ -15,11 +15,36 @@
         .nav-links a { color: #f8fafc; text-decoration: none; font-weight: 600; font-size: 0.95rem; transition: 0.3s; }
         .nav-links a:hover, .nav-links a.active { color: #f59e0b; }
 
-        /* Hero Banner */
-        .hero { background: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.95)), url('https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&q=80') center/cover; padding: 100px 20px; text-align: center; }
+        /* Hero Banner with Image */
+        .hero { 
+            background: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.95)), url('https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&q=80') center/cover; 
+            padding: 60px 20px 0px 20px; 
+            text-align: center; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
         .hero h1 { font-size: 2.8rem; margin-bottom: 10px; color: #ffffff; }
-        .hero p { font-size: 1.2rem; color: #cbd5e1; max-width: 700px; margin: 0 auto 20px auto; }
-        .badge { background: #f59e0b; color: #0f172a; padding: 6px 16px; border-radius: 20px; font-weight: 700; display: inline-block; }
+        .hero p { font-size: 1.2rem; color: #cbd5e1; max-width: 700px; margin: 0 auto 15px auto; }
+        .badge { background: #f59e0b; color: #0f172a; padding: 6px 16px; border-radius: 20px; font-weight: 700; display: inline-block; margin-bottom: 20px; }
+
+        /* Profile Image Container - Thigh length cutout */
+        .hero-img-container {
+            width: 100%;
+            max-width: 380px;
+            height: 400px; /* Feet ko chupane ke liye height fixed ki hai */
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        .hero-img-container img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            object-position: top; /* Picture ko upar se align rakhta hai */
+            filter: drop-shadow(0px 10px 15px rgba(0,0,0,0.5));
+        }
 
         /* Main Container */
         .container { max-width: 1000px; margin: 40px auto; padding: 0 20px; }
@@ -60,10 +85,16 @@
         </ul>
     </nav>
 
+    <!-- Top Hero Section with Profile Picture -->
     <header class="hero">
         <h1>Liberty Global Services</h1>
         <p>Led by Naeem Shehzad — Offering 15+ Years of Proven Expertise in Legal Visa Consultancy</p>
         <span class="badge">Consultant / Owner</span>
+        
+        <!-- Profile Picture Section -->
+        <div class="hero-img-container">
+            <img src="3.jpeg" alt="Naeem Shehzad - Owner">
+        </div>
     </header>
 
     <div class="container">
