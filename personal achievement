@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Founder Travel Experience - Liberty Global Services</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        
+        /* Dark Theme Background */
+        body { background-color: #0f172a; color: #f8fafc; line-height: 1.6; }
+
+        /* Header */
+        header { background: #1e293b; text-align: center; padding: 45px 20px; border-bottom: 2px solid #334155; }
+        header h1 { font-size: 2.2rem; margin-bottom: 10px; font-weight: 700; color: #ffffff; }
+        header p { font-size: 1.1rem; color: #94a3b8; max-width: 650px; margin: 0 auto; }
+
+        /* Navigation Bar */
+        nav { background: #0284c7; text-align: center; padding: 14px; position: sticky; top: 0; z-index: 100; box-shadow: 0 4px 12px rgba(0,0,0,0.3); }
+        nav a { color: #ffffff; text-decoration: none; margin: 0 15px; font-weight: 600; font-size: 0.95rem; transition: color 0.3s; }
+        nav a:hover { color: #e0f2fe; text-decoration: underline; }
+
+        .container { max-width: 1100px; margin: 40px auto; padding: 0 20px; }
+
+        /* Section Titles */
+        .section-title { text-align: center; color: #ffffff; font-size: 1.8rem; margin-bottom: 25px; margin-top: 40px; }
+
+        /* Canva Collage Section */
+        .collage-container { background: #1e293b; border-radius: 12px; padding: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.4); text-align: center; margin-bottom: 50px; border: 1px solid #334155; }
+        .collage-container img { width: 100%; height: auto; border-radius: 8px; display: block; }
+
+        /* Single Photos Grid Layout */
+        .gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-bottom: 50px; }
+
+        /* White Cards for High Contrast */
+        .card { background: #ffffff; color: #0f172a; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 20px rgba(0,0,0,0.3); transition: transform 0.3s ease; }
+        .card:hover { transform: translateY(-6px); }
+        .card img { width: 100%; height: 240px; object-fit: cover; display: block; }
+        .card-content { padding: 20px; }
+        .card-content h3 { color: #0284c7; margin-bottom: 8px; font-size: 1.2rem; font-weight: 700; }
+        .card-content p { color: #475569; font-size: 0.95rem; line-height: 1.5; }
+
+        /* Footer */
+        footer { text-align: center; padding: 25px; background: #1e293b; color: #94a3b8; margin-top: 60px; border-top: 1px solid #334155; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Founder’s Travel Experience</h1>
+        <p>Personal International Visits & Cultural Exposure | Naeem Shehzad</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="personal-experience.html">Personal Experience</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <div class="container">
+        
+        <!-- Main Canva Collage Section -->
+        <h2 class="section-title">USA Travel Highlights</h2>
+        <div class="collage-container">
+            <img src="us-collage.png" alt="Naeem Shehzad USA Travel Collage">
+        </div>
+
+        <!-- Single Photos Grid Section -->
+        <h2 class="section-title">Key Educational & Cultural Locations</h2>
+        
+        <div class="gallery-grid">
+            
+            <!-- Photo Card 1 -->
+            <div class="card">
+                <img src="photo1.jpg" alt="University of Nebraska at Omaha">
+                <div class="card-content">
+                    <h3>University of Nebraska at Omaha</h3>
+                    <p>Visiting academic institutions and engaging in international educational exchange programs.</p>
+                </div>
+            </div>
+
+            <!-- Photo Card 2 -->
+            <div class="card">
+                <img src="photo2.jpg" alt="Nebraska State Capitol">
+                <div class="card-content">
+                    <h3>Nebraska State Capitol (Lincoln, NE)</h3>
+                    <p>Exploring landmark governmental sites and architectural heritage during the US delegation visit.</p>
+                </div>
+            </div>
+
+            <!-- Photo Card 3 -->
+            <div class="card">
+                <img src="photo3.jpg" alt="United States Capitol Building">
+                <div class="card-content">
+                    <h3>United States Capitol (Washington, D.C.)</h3>
+                    <p>Visiting the center of American democracy and key governmental landmarks on Capitol Hill.</p>
+                </div>
+            </div>
+
+            <!-- Photo Card 4 -->
+            <div class="card">
+                <img src="photo4.jpg" alt="Arlington Memorial Bridge">
+                <div class="card-content">
+                    <h3>Arlington Memorial Bridge (Washington, D.C.)</h3>
+                    <p>Posing next to the historical 'Arts of War' equestrian statues near the Lincoln Memorial.</p>
+                </div>
+            </div>
+
+            <!-- Photo Card 5 -->
+            <div class="card">
+                <img src="photo5.jpg" alt="US Capitol Plaza">
+                <div class="card-content">
+                    <h3>Senate Wing Plaza (Washington, D.C.)</h3>
+                    <p>Experiencing the historic East Front Plaza with views of the Capitol Dome and Washington Monument.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Liberty Global Services. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
