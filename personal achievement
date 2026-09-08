@@ -74,7 +74,7 @@
             
             <!-- Photo Card 1 -->
             <div class="card">
-                <img src="photo1.jpg" alt="University of Nebraska at Omaha">
+                <img src="1.jpeg" alt="University of Nebraska at Omaha">
                 <div class="card-content">
                     <h3>University of Nebraska at Omaha</h3>
                     <p>Visiting academic institutions and engaging in international educational exchange programs.</p>
@@ -83,7 +83,7 @@
 
             <!-- Photo Card 2 -->
             <div class="card">
-                <img src="photo2.jpg" alt="Nebraska State Capitol">
+                <img src="2.jpeg" alt="Nebraska State Capitol">
                 <div class="card-content">
                     <h3>Nebraska State Capitol (Lincoln, NE)</h3>
                     <p>Exploring landmark governmental sites and architectural heritage during the US delegation visit.</p>
@@ -92,7 +92,7 @@
 
             <!-- Photo Card 3 -->
             <div class="card">
-                <img src="photo3.jpg" alt="United States Capitol Building">
+                <img src="3.jpeg" alt="United States Capitol Building">
                 <div class="card-content">
                     <h3>United States Capitol (Washington, D.C.)</h3>
                     <p>Visiting the center of American democracy and key governmental landmarks on Capitol Hill.</p>
@@ -101,7 +101,7 @@
 
             <!-- Photo Card 4 -->
             <div class="card">
-                <img src="photo4.jpg" alt="Arlington Memorial Bridge">
+                <img src="4.jpeg" alt="Arlington Memorial Bridge">
                 <div class="card-content">
                     <h3>Arlington Memorial Bridge (Washington, D.C.)</h3>
                     <p>Posing next to the historical 'Arts of War' equestrian statues near the Lincoln Memorial.</p>
@@ -110,7 +110,7 @@
 
             <!-- Photo Card 5 -->
             <div class="card">
-                <img src="photo5.jpg" alt="US Capitol Plaza">
+                <img src="5.jpeg" alt="US Capitol Plaza">
                 <div class="card-content">
                     <h3>Senate Wing Plaza (Washington, D.C.)</h3>
                     <p>Experiencing the historic East Front Plaza with views of the Capitol Dome and Washington Monument.</p>
